@@ -9,8 +9,7 @@ h1{
 }
 
 img{
-    width: 25%;
-    display: inline-block;
+    width:300px;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -19,8 +18,9 @@ img{
     padding: 1.5% 1.5% 5% 1.5%;
     border: 1px solid black;
     box-shadow: 3px 3px 5px 0px rgba(179,179,179,0.67);
+    background-color: white;
 }
 
-img2:hover{
-    width: 50%;
+img:hover{
+    transform: scale(1.5);
 }
